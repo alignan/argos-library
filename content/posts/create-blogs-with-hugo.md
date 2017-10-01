@@ -54,6 +54,19 @@ Just a few more steps and you're ready to go:
 Visit https://gohugo.io/ for quickstart guide and full documentation.
 ````
 
+The following structure is created:
+
+````bash
+.
+├── archetypes  : preconfigured front matter fields
+├── config.toml : configuration file in TOML format
+├── content     : holds the sections (content/blog, etc.) and all content of the website
+├── data        : store configuration files used by Hugo
+├── layouts     : .html templates which defines how the site is rendered
+├── static      : static content of the site (CSS, JavaScript, images, etc.)
+└── themes      : holds the pre-defined themes
+````
+
 Initialize a git repository inside
 
 ````bash
