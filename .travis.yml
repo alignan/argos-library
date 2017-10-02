@@ -1,0 +1,32 @@
+# Environment
+os:
+    - linux
+
+# Install the apt prerequisites
+addons:
+  apt:
+    packages:
+      - python-pygments
+
+# Compile the site
+script:
+    - binaries/hugo --theme=ghostwriter
+
+# Deploy the site - this hook comes from Travis integration
+deploy:
+    # The output of our static site
+    local_dir: public
+    # The repository we are deploying to
+    repo: alignan/alignan.github.io
+    # The branch we are pushing the static repository
+    target_branch: master
+    # Information to use in the commit
+    email: antonio.lignan@gmail.com
+    name: "Antonio Lignan"
+    provider: pages
+    # Recommended setting
+    skip_cleanup: true
+    # Set in Travis CI dashboard
+    github_token: $GITHUB_TOKEN
+    on:
+      branch: master
