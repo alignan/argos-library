@@ -172,6 +172,8 @@ Note the way to add images to the pages is to use `Markdown` tags as usual.  As 
 http://localhost:1313/img/create-blogs-with-hugo/00.png
 ````
 
+***Update:*** I changed the theme and used [Ghostwriter](https://themes.gohugo.io/ghostwriter/)
+
 ## Minor tweaks
 
 Before committing the first version, first add a `gitignore` file:
@@ -183,3 +185,10 @@ Before committing the first version, first add a `gitignore` file:
 # Other files and folders not wanted
 .DS_Store
 ````
+
+The blog sources are in [Github](https://github.com/alignan/argos-library)
+
+## Next steps
+
+* Deploy the blog in Github pages (probably)
+* Other tweaks and improvements to the template and formatting

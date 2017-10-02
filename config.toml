@@ -1,4 +1,44 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Antonio Lignan's blog"
-theme = "hyde"
+theme = "ghostwriter"
+copyright = "Antonio Lignan, All rights reserved - Opinions are my own"
+
+[Author]
+    name = "Antonio Lignan"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "From Kirk to Picard"
+    description = "Or, how I went from developer to manager (and trying to go back!)"
+    github = "https://github.com/alignan"
+    linkedin = "https://www.linkedin.com/in/antonio-liñán-colina-73566229"
+    twitter = "https://twitter.com/4Li6NaN"
+    email = "antonio.lignan@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    shareLinkedIn = true
+    dateFormat = "Mon, Jan 2, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 3
