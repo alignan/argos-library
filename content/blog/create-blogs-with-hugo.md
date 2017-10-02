@@ -107,12 +107,12 @@ I changed the `title` obviously, no further modifications at this stage.
 Creating a new page is surprisingly easy, just run the following:
 
 ````bash
-hugo new posts/create-blogs-with-hugo.md
+hugo new blog/create-blogs-with-hugo.md
 ````
 
 Which as expected is this very own page.
 
-The file was created at `content/posts/create-blogs-with-hugo.md`.
+The file was created at `content/blog/create-blogs-with-hugo.md`.
 
 The newly created file had the following content:
 
