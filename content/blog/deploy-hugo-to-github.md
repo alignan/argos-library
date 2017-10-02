@@ -10,6 +10,8 @@ draft: false
 
 I know there are other options, such as [Netlify](https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/), but I was not too keen to yet depend on another framework, specially one using `node.js`... famous last words...
 
+This is part of my [Challenge to make 26 years before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
+
 ## What didn't work... or at least I gave up in 5 minutes
 
 From the [Hugo's tutorial](https://gohugo.io/hosting-and-deployment/hosting-on-github/):
@@ -114,5 +116,79 @@ $ cat .gitmodules
 	url = git@github.com:alignan/alignan.github.io.git
 ````
 
+And the site now renders as below:
+
+[![](/img/deploy-hugo-to-github/01.png)](/img/deploy-hugo-to-github/01.png)
+
+## Keeping the blog updated
+
+Well, sort of... more like "how can I publish with just one bash script away"...
+
+````bash
+touch build-and-deploy.sh
+chmod +x build-and-deploy.sh
+````
+
+I put this together just to test (doesn't check for errors):
+
+````bash
+#!/bin/bash
+
+echo -e "\033[0;32mDeploying updates to Github...\033[0m"
+
+# Build the project
+hugo
+
+# Add changes to git
+cd public
+git add -A
+
+# Commit changes
+msg="rebuilding site `date`"
+if [ $# -eq 1 ]
+  then msg="$1"
+fi
+git commit -m "$msg"
+
+# Push source and build repos
+git push origin master
+cd ..
+````
+
+Each time I run the `build-and-deploy.sh` script, it will render the site, commit changes using the `timestamp` and push to my site repository (not the source code one).  This is a basic automation, but far from continuously building.  Other options (again, like [Netlify](https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/)) are highly appealing, specially if I want to scale beyond the 1GB of hosting and the building restrictions Github has... but the objective of this was _just learn something new_, and to avoid putting more excuses and optimizations in the queue.
+
+As above, one of my second objectives for my [Challenge](https://github.com/alignan/things-to-do/blob/master/README.md) was to automate "something" using either Travis or Jenkins... why not this blog?
+
+## Continuous Integration with Travis CI
+
+Sign to [Travis](https://travis-ci.com) using your Github account.  When you create your Travis account, you grant Travis access to your GitHub account, which means Travis can access your GitHub repositories.
+
+The next step is to teach Travis how to build Hugo.  There are two ways to compile the site, one is to pull the dependencies, install and compile (which would take more time), or to include a pre-compiled Hugo binary from the [release page](https://github.com/gohugoio/hugo/releases).
+
+The one used for the next step is the [V0.29](https://github.com/gohugoio/hugo/releases/tag/v0.29). 
+
+The flow should be as below:
+
+* I push to `master` at [https://github.com/alignan/argos-library](https://github.com/alignan/argos-library)
+* Travis install the pre-requisites to run Hugo's binary and compiles the site in `/public`
+* Travis creates a new build commit and pushes to `master` at [https://github.com/alignan/alignan.github.io](https://github.com/alignan/alignan.github.io)
+
+As an user, I want to use my github name and email in the automated process.
+
+I got plenty of inspiration from [Roman Coedo's blog](http://rcoedo.com/post/hugo-static-site-generator/), but I also got some tips from [Chris Hager's blog](https://www.metachris.com/2017/04/continuous-deployment-hugo---travis-ci--github-pages/), [Zendesk](https://medium.com/zendesk-engineering/how-to-create-a-website-like-freshswift-net-using-hugo-travis-ci-and-github-pages-67be6f480298) and [Martin Kaptein](https://www.martinkaptein.com/blog/hugo-with-travis-ci-on-gh-pages/) - credits to them all.
+
+To avoid putting information about my key in my repo (even if encrypted), I followed the next advice:
+
+> Travis CI also needs write-access to the GitHub repository, to be able to update the gh-pages branch. For this we provide a GitHub token environment variable named GITHUB_TOKEN in this example. Environment variables can be specified on the Travis CI website in the repository settings (see the Travis environment variables docs). You can generate this token in your GitHub account settings under “Personal access tokens -> Generate new token” (ensure that the “repo” checkbox is enabled).
+
+Once I got my token, next step is to activate the repository in Travis: just navigate through your repository list and click `activate`.  In the repository `settings` I enabled the following options:
+
+* Build only is a .yml file is present
+* Build branch updates
+* Build Pull Request updates
+
+And in the `Environmental variables` field, I created a `GITHUB_TOKEN` variable, with the value of the token I got from my Github account.  One important thing: ***do not forget to disable the option to Display the value in the build log!***.
+
+[![](/img/deploy-hugo-to-github/02.png)](/img/deploy-hugo-to-github/02.png)
 
 

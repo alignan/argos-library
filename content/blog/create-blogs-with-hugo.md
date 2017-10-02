@@ -190,5 +190,5 @@ The blog sources are in [Github](https://github.com/alignan/argos-library)
 
 ## Next steps
 
-* Deploy the blog in Github pages (probably)
+* [Deploy the blog in Github pages (done!)](https://alignan.github.io/2017/10/02/deploy-hugo-to-github/)
 * Other tweaks and improvements to the template and formatting
