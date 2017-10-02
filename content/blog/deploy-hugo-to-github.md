@@ -183,7 +183,7 @@ To avoid putting information about my key in my repo (even if encrypted), I foll
 
 Once I got my token, next step is to activate the repository in Travis: just navigate through your repository list and click `activate`.  In the repository `settings` I enabled the following options:
 
-* Build only is a .yml file is present
+* Build only is a `.yml` file is present
 * Build branch updates
 * Build Pull Request updates
 
@@ -233,3 +233,9 @@ As shown below, it takes less than a minute to run Travis CI routine, and now ju
 [![](/img/deploy-hugo-to-github/03.png)](/img/deploy-hugo-to-github/03.png)
 
 The commit history in the `https://github.com/alignan/alignan.github.io` is squashed, but I don't mind losing the history (at the moment, famous last words yet again...).
+
+## Final tweaking
+
+The final touch is to set a [Travis CI build badge](https://docs.travis-ci.com/user/status-images/) to the repository.
+
+As the instructions in the previous link, I just clicked on the `badge` and copied the link in Markdown format, then pasted it in the `README.md` file. 
