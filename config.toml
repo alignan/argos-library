@@ -26,11 +26,11 @@ copyright = "Antonio Lignan, All rights reserved - Opinions are my own"
     highlightJsLocalUrl = ""
 
 [Permalinks]
-    post = "/:year/:month/:day/:filename/"
+    blog = "/:year/:month/:day/:filename/"
 
 [[menu.main]]
     name = "Blog"
-    url = "blog/"
+    url = "/blog/"
     weight = 1
 
 [[menu.main]]
@@ -40,5 +40,5 @@ copyright = "Antonio Lignan, All rights reserved - Opinions are my own"
 
 [[menu.main]]
     name = "About"
-    url = "about"
+    url = "/about"
     weight = 3
