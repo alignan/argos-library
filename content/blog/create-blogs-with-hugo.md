@@ -1,7 +1,7 @@
 ---
 title: "Create Blogs With Hugo"
 date: 2017-09-30T23:41:11+02:00
-draft: true
+draft: false
 ---
 
 # Create a blog using Hugo
