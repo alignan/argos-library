@@ -1,10 +1,10 @@
 ---
-title: "Deploy Hugo to Github pages"
+title: "Deploy Hugo to Github pages and build with Travis CI"
 date: 2017-10-02T22:46:12+02:00
 draft: false
 ---
 
-# Deploy a Hugo website to Github pages
+# Deploy a Hugo website to Github pages and build with Travis CI
 
 > GitHub provides free and fast static hosting over SSL for personal, organization, or project pages directly from a GitHub repository via its [GitHub Pages service](https://help.github.com/articles/what-is-github-pages/).
 
@@ -191,4 +191,45 @@ And in the `Environmental variables` field, I created a `GITHUB_TOKEN` variable,
 
 [![](/img/deploy-hugo-to-github/02.png)](/img/deploy-hugo-to-github/02.png)
 
+The next step is to set the `.travis.yml` properly, which will be used by `Travis` to automate the tasks.  More information about this can be found in [Travis CI's Github page deployment help](https://docs.travis-ci.com/user/deployment/pages/).  This is the my [.travis.yml](https://github.com/alignan/argos-library/blob/master/.travis.yml) file:
 
+````yaml
+# Environment
+os:
+    - linux
+
+# Install the apt prerequisites
+addons:
+  apt:
+    packages:
+      - python-pygments
+
+# Compile the site
+script:
+    - binaries/hugo --theme=ghostwriter
+
+# Deploy the site - this hook comes from Travis integration
+deploy:
+    # The output of our static site
+    local_dir: public
+    # The repository we are deploying to
+    repo: alignan/alignan.github.io
+    # The branch we are pushing the static repository
+    target_branch: master
+    # Information to use in the commit
+    email: antonio.lignan@gmail.com
+    name: "Antonio Lignan"
+    provider: pages
+    # Recommended setting
+    skip_cleanup: true
+    # Set in Travis CI dashboard
+    github_token: $GITHUB_TOKEN
+    on:
+      branch: master
+````
+
+As shown below, it takes less than a minute to run Travis CI routine, and now just by pushing to master the site is rendered automatically.
+
+[![](/img/deploy-hugo-to-github/03.png)](/img/deploy-hugo-to-github/03.png)
+
+The commit history in the `https://github.com/alignan/alignan.github.io` is squashed, but I don't mind losing the history (at the moment, famous last words yet again...).
