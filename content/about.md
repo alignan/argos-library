@@ -44,8 +44,8 @@ In my professional career I have been:
 
 I have worked in the following companies:
 
-* [Zolertia](www.zolertia.io) (2010 - 2017)
-* [relayr GmbH](www.relayr.io) (2017 - present)
+* [Zolertia](https://zolertia.io) (2010 - 2017)
+* [relayr GmbH](https://relayr.io) (2017 - present)
 
 
 
