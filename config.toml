@@ -9,6 +9,7 @@ copyright = "Antonio Lignan, All rights reserved - Opinions are my own"
 
 [Taxonomies]
     tag = "tags"
+    category = "categories"
 
 [Params]
     intro = true
