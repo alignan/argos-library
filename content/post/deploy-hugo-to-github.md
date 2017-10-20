@@ -2,6 +2,7 @@
 title: "Deploy Hugo to Github pages and build with Travis CI"
 date: 2017-10-02T22:46:12+02:00
 draft: false
+tags: [ "Challenge 2017", "Blog", "Hugo", "Travis CI" ]
 ---
 
 # Deploy a Hugo website to Github pages and build with Travis CI

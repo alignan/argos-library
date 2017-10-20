@@ -2,6 +2,7 @@
 title: "A New Company in Germany"
 date: 2017-10-14T09:16:41+02:00
 draft: false
+tags: [ "Challenge 2017", "Germany", "Entrepreneurship", "Company" ]
 ---
 
 # On how I attempt to create my own Company in Germany as an exPat

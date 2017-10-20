@@ -2,6 +2,7 @@
 title: "Create Blogs With Hugo"
 date: 2017-09-30T23:41:11+02:00
 draft: false
+tags: [ "Challenge 2017", "Blog", "Hugo" ]
 ---
 
 # Create a blog using Hugo
