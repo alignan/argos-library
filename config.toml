@@ -36,7 +36,7 @@ copyright = "Antonio Lignan, All rights reserved - Opinions are my own"
 
 [[menu.main]]
     name = "Projects"
-    url = "/project/"
+    url = "/projects/"
     weight = 2
 
 [[menu.main]]
