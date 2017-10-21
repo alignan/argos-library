@@ -6,11 +6,13 @@ draft: false
 
 # About me
 
+[![](/img/about/00.jpg)](/img/about/00.jpg)
+
 I'm Antonio Liñán Colina, father of two, husband and tinkerer.
 
 Born in Cartagena, Colombia - now traveling to "B" cities, as I have lived in Bogotá (Colombia), Bilbao (Vizcaya), Barcelona (Catalonia) and now in Berlin (Germany).
 
-I'm your type of geek: I like Star Trek the same as Star Wars (kind of), I have read all Harry Potter books and saw all movies, own my own dwarven pipe (an exact replica of Gimli's from The Lord of the Rings), collect sonic screwdrivers, and proudly follow One Piece's emission every Sunday for the past 4 years (and counting).
+I'm your type of geek: I like Star Trek the same as Star Wars (_kind of_), I have read all Harry Potter books and saw all movies, own my own dwarven pipe (an exact replica of Gimli's from The Lord of the Rings), collect sonic screwdrivers, and proudly follow One Piece's emission every Sunday for the past 4 years (and counting).
 
 I love technology.
 
