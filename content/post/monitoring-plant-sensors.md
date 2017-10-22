@@ -77,7 +77,7 @@ I downloaded the `resinOS v2.3.0+rev1.prod` (~150Mb download), then flashed to a
 
 [![](/img/monitoring-plant-sensors/05.png)](/monitoring-plant-sensors/05.png)
 
-One of the download steps was providing the network credentials, this saves time as the downloaded image is already provisioned.  Once the MicroSD has been inserted in the RPi and powered on, it will be shown in the Resin.io dashboard.
+One of the download steps was to provide the network credentials, this saves time as the downloaded image is already provisioned.  Once the MicroSD has been inserted in the RPi and powered on, it will be shown in the Resin.io dashboard.
 
 [![](/img/monitoring-plant-sensors/06.png)](/monitoring-plant-sensors/06.png)
 
