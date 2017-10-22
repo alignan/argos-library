@@ -69,7 +69,7 @@ I had a Raspberry Pi with a [Pimoroni PiTFT Plus 480x320 3.5" touchscreen](https
 
 I wanted to play around with Docker... and since I have now a Raspberry Pi powered use case seems a good moment as any other.
 
-[Resin has a nice guide and several OS images](https://docs.resin.io/raspberrypi3/nodejs/getting-started/), which means I don't have to implement everything from scratch and just focus on the solution.
+[Resin has a nice guide and several OS images](https://docs.resin.io/raspberrypi3/python/getting-started/), which means I don't have to implement everything from scratch and just focus on the solution.
 
 The good thing about this approach is I can maintain and deploy from a Github repository, saving time from SSH/manually replacing files.
 
