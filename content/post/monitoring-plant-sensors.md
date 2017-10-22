@@ -60,3 +60,19 @@ Then solder the wires directly on to the pads of the sensor:
 And finally use the heat shrink tube in combination with plastic silicone, to try to prevent water dripping through the cable, at most it will be driven on top of the heat shrinks.
 
 [![](/img/monitoring-plant-sensors/03.jpg)](/monitoring-plant-sensors/03.jpg)
+
+### Raspberry Pi and Resin.io
+
+I had a Raspberry Pi with a [Pimoroni PiTFT Plus 480x320 3.5" touchscreen](https://shop.pimoroni.com/collections/hats/products/pitft-plus-480x320-3-5-tft-touchscreen-for-raspberry-pi-pi-2-and-model-a-b) laying around, as usual.  It uses a RPi 2, I will replace it for a 3 model later at some point (to take advantage of the built-in Wi-Fi and BLE interfaces).
+
+[![](/img/monitoring-plant-sensors/04.jpg)](/monitoring-plant-sensors/04.jpg)
+
+I wanted to play around with Docker... and since I have now a Raspberry Pi powered use case seems a good moment as any other.
+
+[Resin has a nice guide and several OS images](https://docs.resin.io/raspberrypi3/nodejs/getting-started/), which means I don't have to implement everything from scratch and just focus on the solution.
+
+The good thing about this approach is I can maintain and deploy from a Github repository, saving time from SSH/manually replacing files.
+
+I downloaded the `resinOS v2.3.0+rev1.prod` (~150Mb download), then flashed to a MicroSD card.
+
+[![](/img/monitoring-plant-sensors/05.png)](/monitoring-plant-sensors/05.png)
