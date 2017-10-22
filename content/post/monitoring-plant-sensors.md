@@ -82,3 +82,5 @@ One of the download steps was providing the network credentials, this saves time
 [![](/img/monitoring-plant-sensors/06.png)](/monitoring-plant-sensors/06.png)
 
 I will create a new post about Resin.io and remote provisioning.
+
+Instructions on how to access the RPi (locally) are available [Here]({{< relref "post/configure-rpi-resin-local-access.md" >}})
