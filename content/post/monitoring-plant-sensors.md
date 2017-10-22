@@ -1,5 +1,5 @@
 ---
-title: "An IoT and Raspberry Pi powered plant monitoring system"
+title: "An IoT Raspberry Pi powered plant monitoring system"
 date: 2017-10-22T17:31:04+02:00
 draft: false
 tags: [ "Challenge 2017", "Bonsai", "IoT", "Sensors", "Raspberry Pi" ]
