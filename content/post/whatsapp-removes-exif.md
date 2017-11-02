@@ -13,19 +13,19 @@ This is quite inconvenient.
 
 Then I noticed not all the photos backed to `Google Photos` had this problem, and a deeper look at the [EXIF properties](https://en.wikipedia.org/wiki/Exif) of two different files confirmed my assumptions: [Whatsapp](https://www.whatsapp.com) removes these properties when sharing photos.
 
-This is the `Exif properties` of a "good" photo:
+These are the `Exif properties` of a "good" photo:
 
 [![](/img/whatsapp-removes-exif/00.png)](/img/whatsapp-removes-exif/00.png)
 
-And a `Whatsapp` one:
+And the `Whatsapp` ones:
 
 [![](/img/whatsapp-removes-exif/01.png)](/img/whatsapp-removes-exif/01.png)
 
-This has been discussed as well in [Quora](https://www.quora.com/Do-pictures-sent-on-WhatsApp-keep-their-EXIF-data).  Apparently this saves some extra bytes and help compressing the photos sent, and has some value in keeping privacy.  I understand the motivations, but it is **a Pain in the Ass**.
+This has been discussed as well in [Quora](https://www.quora.com/Do-pictures-sent-on-WhatsApp-keep-their-EXIF-data).  Apparently, this saves some extra bytes and helps to compress the photos sent.  Also, it contributes to keep privacy.  I understand the motivations, but it is **a Pain in the Ass**.
 
 What properties am I talking about? simple ones, such as Creation and Modification date.
 
-When syncing photos to `Google Photos`, if these values are not found, then the Cloud application just fills in the appropriate ones, using the sync time-stamp as new value, thus losing all time-relevancy when sorting photos.
+When syncing photos to `Google Photos`, if these values are not found, then the application just fills in the appropriate ones, using the sync time-stamp as new value, thus losing all time-relevancy when sorting photos.
 
 The only option I have found is to install `Google Photos` in my mobile, and have `Whatsapp` photo folders to automatically sync, however for limited data budgets this may be an issue (not my issue currently).
 
