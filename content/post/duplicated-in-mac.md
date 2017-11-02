@@ -2,7 +2,7 @@
 title: "Remove duplicate photos and videos in MAC (OSX)"
 date: 2017-10-31T15:08:17+01:00
 draft: false
-tags: [ "MAC", "OSX", "Duplicate", "Cleaning" ]
+tags: [ "MAC", "OSX", "Tools", "Photos" ]
 ---
 
 # Remove duplicate photos and videos in MAC (tip)
