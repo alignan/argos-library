@@ -1,5 +1,5 @@
 ---
-title: "My Iot Book"
+title: "My IoT Book"
 date: 2017-11-19T21:09:51+01:00
 draft: false
 tags: [ "IoT", "Book", "Evangelist", "Contiki" ]
