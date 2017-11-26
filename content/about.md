@@ -30,7 +30,7 @@ I'm currently planing to take a stab at [Go](https://golang.org) and [Rust](http
 
 I wrote a work book to enable people develop their own real Internet of Things applications, namely ["IoT in five days"](https://github.com/alignan/IPv6-WSN-book), because at the moment there was not any [Contiki](http://www.contiki-os.org) user-friendly guide, and too many books preaching about IoT, but few from any technical perspective.
 
-Ah yes, it is freely available on-line, ready to be compiled in different formats (PDF, ePub, HTML5) and it was published twice for workshops in Italy and Colombia, and it has been translated to Spanish and French.  This work was heavily sponsored by the [ICTP](https://www.ictp.it), in a joint effort to share this knowledge to developing countries.  In total, I was a lecturer and hands-on tutor of the Internet of Things track in six worldwide workshops, in locations like Italy, Argentina, Costa Rica and Colombia.
+Ah yes, it is freely available on-line, ready to be compiled in different formats (PDF, ePub, HTML5) and it was published twice for workshops in Italy and Colombia, and it has been translated to Spanish and French.  This work was heavily sponsored by the [ICTP](https://www.ictp.it), in a joint effort to share this knowledge to developing countries.  In total, I was a lecturer and hands-on tutor of the Internet of Things track in six worldwide workshops, in locations like Italy, Argentina, Costa Rica and Colombia.  More info in my [Project page]({{< relref "projects/my-iot-book.md" >}}).
 
 ## Professional summary
 

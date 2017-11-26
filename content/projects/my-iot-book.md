@@ -7,6 +7,8 @@ tags: [ "IoT", "Book", "Evangelist", "Contiki" ]
 
 # My IoT book
 
+[![](/img/book/book-cover.gif)](/img/book/book-cover.gif)
+
 [My book: IoT in five Days](https://github.com/alignan/IPv6-WSN-book).
 
 >This booklet is a quick but thoughtful guide to jump into the Internet of Things, covering important subjects as IPv6 networking, sensors, wireless protocols and technologies, as well as IoT cloud platforms and its most commonly used protocols, featuring lots of hands-on examples to start working from day one.
