@@ -38,6 +38,8 @@ In my professional career I have been:
 
 * An Embedded Firmware developer, working and contributing to Open Source Operating Systems like TinyOS, Contiki and RIoT.  I worked with MCU like the MSP430F2617, CC2420, CC1200, CC2538 ARM Cortex-M3, Nucleus, ... I like really embedded platforms and developing applications able to run on batteries for years - I know Linux too!
 
+* An NOC level two Engineer, managing on-site technicians and solving networking issues remotely from the Network Operation Center.  It was brief, but I learned to manage 12-14 support tickets and technical incidences at the same time in any given day, which earned me the title of Zen Master.
+
 * A Product Manager, designing, maintaining and releasing commercial development platforms for the Internet of Things (IoT) market, both for industrial and academic users.  I have gained a deep insight about product design, gathering and crafting user requirements, and understanding the business side of the equation, to ensure the product success.  I have successfully developed and taken from development to industrialization four (4) electronic products, for the IoT and the lighting consumer market
 
 * A CTO (Chief Technical Officer), which is a nice title to have, but I have plenty still to learn about it...
@@ -48,8 +50,9 @@ In my professional career I have been:
 
 I have worked in the following companies:
 
-* [Zolertia](https://zolertia.io) (2010 - 2017)
-* [relayr GmbH](https://relayr.io) (2017 - present)
+* [Telefonica (Colombia)](https://www.telefonica.com) (2009)
+* [Zolertia (Spain)](https://zolertia.io) (2010 - 2017)
+* [relayr GmbH (Germany)](https://relayr.io) (2017 - present)
 
 
 
