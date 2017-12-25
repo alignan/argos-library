@@ -2,7 +2,7 @@
 title: "An IoT Raspberry Pi powered plant monitoring system II"
 date: 2017-12-25T18:54:40+01:00
 draft: false
-tags: [ "Challenge 2017", "Bonsai", "Resin IO", "relayr", IoT", "Sensors", "Raspberry Pi" ]
+tags: [ "Challenge 2017", "Bonsai", "Resin IO", "relayr", "IoT", "Sensors", "Raspberry Pi" ]
 ---
 
 # Monitoring my plant using sensors, relayr's cloud, resin.io and the Raspberry Pi
