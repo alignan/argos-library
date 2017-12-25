@@ -16,4 +16,5 @@ The plant is kept in my office desk, and I want to make sure it is well taken ca
 ## Related posts
 
 * [My new Bonsai]({{< relref "post/my-new-bonsai.md" >}})
-* [An IoT and Raspberry Pi powered plant monitoring system]({{< relref "post/monitoring-plant-sensors.md" >}})
+* [An IoT Raspberry Pi powered plant monitoring system]({{< relref "post/monitoring-plant-sensors.md" >}})
+* [An IoT Raspberry Pi powered plant monitoring system II]({{< relref "post/monitoring-plant-resin-io.md" >}})
