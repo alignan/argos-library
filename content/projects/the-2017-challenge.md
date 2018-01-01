@@ -13,8 +13,16 @@ At the [Deadline Demo Party](http://deadline.untergrund.net), while coding and w
 
 This is a Meta project, as it has spawned several ones (including this blog), thus I will not keep track of references here, but likely the related blog posts will include the `Challenge 2017` tag.
 
-And of course, I made a Github repository, in which I'm tracking the progress with issues associated to my milestone completion:
+And of course, I made a Github repository, in which ~~I'm tracking~~ I tracked the progress with the issues associated to my milestone completion:
 
-[**The 2017 challenge Github repository**](https://github.com/alignan/things-to-do)
+[**The 2017 challenge Github repository**](https://github.com/alignan/things-to-do/blob/master/README_2017.md)
 
-This project will end December 31th, 2017.
+The associated milestone (Github): https://github.com/alignan/things-to-do/milestone/1?closed=1.
+
+This project ~~will end~~ finished on December 31th, 2017 - here is my procrastination chart:
+
+[![](/img/challenge-2017/00.png)](/img/challenge-2017/00.png)
+
+I managed a 42% of goals completion, which is not a bad number considering I was too optimistic (now I know 2 goals per week is close to impossible as family and work obligations are difficult to conciliate), and it put me in the right track to go out of my way and finish pending and new things.
+
+My take out of 2017 is a new mindset to approach challenges and discipline to pursue goals, whilst having fun and learn more about myself in the process.
