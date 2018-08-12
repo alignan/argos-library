@@ -43,3 +43,8 @@ copyright = "Antonio Lignan, All rights reserved - Opinions are my own"
     name = "About"
     url = "/about"
     weight = 3
+
+[[menu.main]]
+    name = "CV"
+    url = "/cv"
+    weight = 4
