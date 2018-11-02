@@ -6,7 +6,7 @@ draft: false
 
 # Smart Home with enOcean sensors, Philips Hue and Weather underground, running on influxDb and Grafana in a Raspberry Pi (Part 1 of 2)
 
-This is part of my [Challenge to make 26 years before 2018 ends](https://github.com/alignan/things-to-do).
+This is part of my [Challenge to make 26 things before 2018 ends](https://github.com/alignan/things-to-do).
 
 I wanted to eat my own dog food, scratch my own itch, follow the preaching book... in short, to add some of the technologies and concepts I use at work in my home.
 

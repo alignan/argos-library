@@ -7,7 +7,7 @@ tags: [ "Challenge 2017", "Bonsai", "Resin IO", "relayr", "IoT", "Sensors", "Ras
 
 # Monitoring my plant using sensors, relayr's cloud, resin.io and the Raspberry Pi
 
-This is part of my [Challenge to make 26 years before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
+This is part of my [Challenge to make 26 things before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
 
 This post is a continuation of the [Raspberry Pi powered plant monitoring system post]({{< relref "post/monitoring-plant-sensors.md" >}}), in which I discussed the project requirements, and briefly showed how to flash the `resinOS` to a Raspberry Pi and waterproof a soil sensor.
 

@@ -7,7 +7,7 @@ tags: [ "Beers", "Personal", "Books", "Challenge 2017" ]
 
 # A book about Beers (or how I am less ignorant)
 
-This is part of my [Challenge to make 26 years before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
+This is part of my [Challenge to make 26 things before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
 
 I bought [The complete beer course](https://www.goodreads.com/book/show/17347553-the-complete-beer-course) a couple of months ago.  It has traveled from my office and my flat in Berlin to my family house in Barcelona, however only until this week (few days before new year's eve), I have finally found the time to began reading through its pages as part of my self-imposed challenge... procrastination at its best.
 

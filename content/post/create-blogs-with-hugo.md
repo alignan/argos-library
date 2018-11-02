@@ -9,7 +9,7 @@ tags: [ "Challenge 2017", "Blog", "Hugo" ]
 
 Hugo is an open source static site generator based on [Go](https://golang.org)
 
-This is part of my [Challenge to make 26 years before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).  Proudly to say, this is the begining of my journey.
+This is part of my [Challenge to make 26 things before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).  Proudly to say, this is the begining of my journey.
 
 ## Quick-start
 

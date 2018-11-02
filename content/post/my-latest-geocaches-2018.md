@@ -6,7 +6,7 @@ draft: false
 
 # My latest geocaches (2018)
 
-This is part of my [Challenge to make 26 years before 2018 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
+This is part of my [Challenge to make 26 things before 2018 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
 
 >Geocaching is a real-world, outdoor treasure hunting game using GPS-enabled devices. Participants navigate to a specific set of GPS coordinates and then attempt to find the geocache (container) hidden at that location.
 

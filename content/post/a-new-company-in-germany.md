@@ -7,7 +7,7 @@ tags: [ "Challenge 2017", "Germany", "Entrepreneurship", "Company" ]
 
 # On how I attempt to create my own Company in Germany as an exPat
 
-This is part of my [Challenge to make 26 years before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
+This is part of my [Challenge to make 26 things before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
 
 _Work in progress_.
 

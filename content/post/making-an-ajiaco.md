@@ -7,7 +7,7 @@ tags: [ "Challenge 2017", "Food", "Personal", "Colombia" ]
 
 # Making an Ajiaco
 
-This is part of my [Challenge to make 26 years before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
+This is part of my [Challenge to make 26 things before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
 
 The [Ajiaco](https://en.wikipedia.org/wiki/Ajiaco): one of the most traditional dishes of Colombia's cuisine.
 

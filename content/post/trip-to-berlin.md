@@ -7,7 +7,7 @@ tags: [ "Challenge 2017", "Family", "Personal", "Berlin" ]
 
 # Our trip to Berlin
 
-This is part of my previous [Challenge to make 26 years before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md), which I'm trying to finish now in 2018.
+This is part of my previous [Challenge to make 26 things before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md), which I'm trying to finish now in 2018.
 
 After living and working abroad (in Berlin, Germany) for almost a year, having my family (finally) joining from Barcelona was both exciting and challenging.  Packing and shipping all belongings and memories of 7 happy years over 1.800 kilometers is not an easy task.  Needless to say, finding a flat in Berlin and dealing with the German bureaucracy on top of moving arrangements was particularly hard.
 

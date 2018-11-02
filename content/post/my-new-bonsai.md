@@ -7,7 +7,7 @@ tags: [ "Challenge 2017", "Bonsai", "Personal" ]
 
 # My new bonsai
 
-This is part of my [Challenge to make 26 years before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
+This is part of my [Challenge to make 26 things before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
 
 Finally, after some consideration and procrastination, I decided to get a plant (and care for living beings).  Fortunately, my current company has a great policy about office plants for employees.
 

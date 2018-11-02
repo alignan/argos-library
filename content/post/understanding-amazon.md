@@ -7,7 +7,7 @@ tags: [ "Challenge 2017", "Amazon", "Cloud" ]
 
 # Understanding Amazon
 
-This is part of my [Challenge to make 26 years before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
+This is part of my [Challenge to make 26 things before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
 
 This is a short post - I had in my list for a _long time_ to start using Amazon, however it is a big bone to chew at once, so I decided first to take a small stab and first understand what Amazon is all about.
 

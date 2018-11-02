@@ -7,7 +7,7 @@ tags: [ "Challenge 2017", "Karaoke", "Barcelona", "Personal", "Friends" ]
 
 # A Karaoke night
 
-This is part of my [Challenge to make 26 years before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
+This is part of my [Challenge to make 26 things before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
 
 Me, my wife and close friends went to the [Almodobar's karaoke bar](http://www.grupalmodobar.com/almodobar/) in Barcelona - best night ever.  We arrived at 23:30, which was great as the place was empty and we got the microphones to ourselves for almost an hour, enough to warm up and drink up (with the mandatory tequila/whiskey starter shot).
 

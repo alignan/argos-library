@@ -7,7 +7,7 @@ tags: [ "Challenge 2017", "Bonsai", "IoT", "Sensors", "Raspberry Pi" ]
 
 # Monitoring my new plant using sensors and the Raspberry Pi
 
-This is part of my [Challenge to make 26 years before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
+This is part of my [Challenge to make 26 things before 2017 ends](https://github.com/alignan/things-to-do/blob/master/README.md).
 
 This type of project is nothing new in the _Makersphere_, using environmental sensors with the Raspberry Pi (and Arduinos, ESP8266, etc.) has been done since it's early beginnings, and it is perhaps one of the most implemented use cases.
 
